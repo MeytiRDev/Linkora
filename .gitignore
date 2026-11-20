@@ -1,0 +1,47 @@
+
+# Dependencies
+/node_modules
+/package-lock.json
+
+# pnpm
+.pnpm-store/
+
+# Next.js
+/.next
+out/
+
+# Production
+/build
+
+# Environment variables
+.env*
+!.env.example
+
+# Logs
+*.log
+npm-debug.log*
+pnpm-debug.log*
+
+# TypeScript
+*.tsbuildinfo
+next-env.d.ts
+
+# Testing
+coverage/
+
+# Cache
+.cache/
+.turbo/
+
+# Deployment
+/.vercel
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.idea/
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
